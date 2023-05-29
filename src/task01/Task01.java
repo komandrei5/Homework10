@@ -25,6 +25,6 @@ public class Task01 {
     }
 
     private String getRandomWord(List<String> words) {
-        return words.get((int) (Math.random()*15));
+        return words.get((int) (Math.random()* words.size()));
     }
 }
