@@ -10,7 +10,7 @@ public class Main {
         "pen", "Hi", "read", "pear", "table", "potato", "plume", "run!", "Go");
 
         List<String> randomWords = task.getList(words, 7771);
-        int occurrences = task.countOccurance(randomWords, "Go");
+        int occurrences = task.countOccurance(randomWords, "pen");
         System.out.println("Occurrences of coincidence: "  + occurrences);
     }
 }

@@ -15,7 +15,7 @@ public class Task01 {
         return count;
     }
 
-     List<String> getList (List<String> words, int count) {
+     public List<String> getList (List<String> words, int count) {
         List<String> result = new ArrayList<>();
         for (int i = 0; i < count; i++) {
             String word = getRandomWord(words);
