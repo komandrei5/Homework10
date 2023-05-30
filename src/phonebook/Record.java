@@ -19,9 +19,9 @@ public class Record {
 
     @Override
     public String toString() {
-        return "Record{" +
-                "name='" + name + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                '}';
+        return "" +
+                "name: '" + name + '\'' +
+                ", phoneNumber: '" + phoneNumber + '\'' +
+                ' ';
     }
 }
